@@ -27,11 +27,11 @@ if (contador == 1) {
     }else if(contador == 12){
        console.log('Dezembro') 
     }else{
-       console.log("Você não digitou um numero de mes valido")
+       console.log("Você não digitou um numero de mes valido do Planeta Terra")
     }         
        
 
 }
 
-meses(21)
+meses()
 
