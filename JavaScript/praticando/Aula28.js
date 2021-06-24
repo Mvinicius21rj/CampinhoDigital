@@ -19,13 +19,31 @@ function verificanumeros(numero){
     }while(i <= numero)
 
 }
-verificanumeros(8)
+verificanumeros(15)
 
 
 // 2 – Utilizando WHILE, escreva uma função que possa receber um array com 5 objetos de nomes
 //  de alunos e notas, por exemplo {aluno: ...., nota: .......} e depois calcule a média dos alunos printando na tela o resultado. 
 
 
+
+var alunos = [
+
+    {aluno:"José",nota:5},
+    {aluno:"Paulo",nota:3},
+    {aluno:"Eric",nota:4},
+    {aluno:"Fabio",nota:8},
+    {aluno:"Marcio",nota:9},
+
+]
+
+function mediaAlunos(alunos){
+
+   notaAluno = 0
+
+}
+
+mediaAlunos(alunos)
 
 
 
