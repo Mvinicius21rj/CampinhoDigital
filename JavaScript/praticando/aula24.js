@@ -45,14 +45,14 @@ console.log(funcaoreduzida(numero))
 5
 conjuntos = ["amig", 2, true, 'curso']
 
-function funcaoselecao(array){
+function funcaoselecao(numero){
     arrayresultado = []
-    for(i = 0; i < array.length; i++){
-    if(typeof array[i] == 'number'){
-        arrayresultado.push(array[i])
+    for(i = 0; i < numero.length; i++){
+    if(typeof numero[i] == 'number'){
+        arrayresultado.push(numero[i])
     }
         return arrayresultado
     }
     
 }
-console.log(funcaoselecao(conjuntos))
+console.log(funcaoselecao())
