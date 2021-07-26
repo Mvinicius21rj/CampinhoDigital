@@ -17,9 +17,15 @@ class humano extends mamifero{
 }
 
 class felino extends mamifero{
-
+    constructor(){
+        super(especie, nome, idade)
+        this.calda = true
+        this.quadrupede = true
+    }
 
 }
+
+
 
 var funcionario = new humano('Homo sapiens', 'Roberto', 29, 'professor') 
 

@@ -53,18 +53,49 @@ clientes = [
     
 ]
 
-grupoM = 0
-grupoF = 0
+grupoM = []
+grupoF = []
+pedidosM = []
+pedidosF = []
+valor = 0
+
+
+
+    
 
 for(i = 0; i < clientes.length; i++){
      if(clientes[i].grupo == 'Masculino'){
-        grupoM += 1
+        grupoM.push(clientes[i].cliente)
+        pedidosM.push(clientes[i].pedido)
+        
      }else{
-         grupoF += 1 
+         grupoF.push(clientes[i].cliente)
+         pedidosF.push(clientes[i].pedido) 
      }
 
 }
 
-console.log(grupoF,grupoM)
+for(y = 0; y < alimentos.length; y++){
+    if(alimentos[y].alimento == pedidosM[y]){
+        valor = 1 
+     }
+}
+
+contgrupoM = grupoM.length
+contgrupoF = grupoF.length
+
+console.log(valor)
+
+console.log(grupoM)
+console.log(grupoF)
+
+console.log(contgrupoF)
+console.log(contgrupoM)
+
+console.log(pedidosF)
+console.log(pedidosM)
+
+console.log('A Quantidade de pessoas no Grupo masculino é de',contgrupoM, 'e feminino',contgrupoF)
+
 
 
