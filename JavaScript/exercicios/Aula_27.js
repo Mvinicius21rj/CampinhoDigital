@@ -86,14 +86,14 @@ contgrupoF = grupoF.length
 
 console.log(valor)
 
+console.log("Masculino e feminino")
 console.log(grupoM)
 console.log(grupoF)
 
+console.log("Quanto ganhou Masculino e Feminino")
 console.log(contgrupoF)
 console.log(contgrupoM)
 
-console.log(pedidosF)
-console.log(pedidosM)
 
 console.log('A Quantidade de pessoas no Grupo masculino é de',contgrupoM, 'e feminino',contgrupoF)
 
